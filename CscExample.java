@@ -3,6 +3,7 @@ class CscExamples{
 	String category;
 	String text;
 	
+<<<<<<< HEAD
 	public setQuestionNo(int questionNo){
 		this.questionNo = questionNo;
 	}
@@ -25,5 +26,17 @@ class CscExamples{
 	
 	public String getText(){
 		return text;
+=======
+	public addQuestion(CscExample qu){
+		
+	}
+	
+	public removeQuestion(int quID){
+		
+	}
+	
+	public editQuestion(int quID){
+		
+>>>>>>> 10f348a484f4f5d93a6e54bcb8204d1941a6d289
 	}
 }
