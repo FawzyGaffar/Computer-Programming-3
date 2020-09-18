@@ -14,4 +14,16 @@ class CscExamples{
 	public setText(string text){
 		this.text =text;
 	}
+	
+	public int getQuestionNo(){
+		return questionNo;
+	}
+	
+	public String getCategory(){
+		return category;
+	}
+	
+	public String getText(){
+		return text;
+	}
 }
